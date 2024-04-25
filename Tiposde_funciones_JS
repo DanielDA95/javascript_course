@@ -54,6 +54,8 @@ var messyString = '    Hi there    ';
 
 messyString.trim(); // "Hi there"
 
+//____________________________________________________________________________________________________________________________________________________
+
 
 //Siguiente clase acerca de las funciones 
 
@@ -72,6 +74,25 @@ str.replace('fox', 'wolf'); // "The quick brown wolf jumped over the lazy dog"
 str.indexOf('jumped'); // 20
 
 str.lastIndexOf('jumped'); // 20
+
+
+//____________________________________________________________________________________________________________________________________________________
+
+//Tercera clase sobre las funciones.
+
+str.slice(4, 10); // "quick "
+
+str.slice(-8); // "lazy dog"
+
+str.slice(10); // "brown fox jumped over the lazy dog"
+
+str.toUpperCase(); // "THE QUICK BROWN FOX JUMPED OVER THE LAZY DOG"
+
+str.toLowerCase(); // "the quick brown fox jumped over the lazy dog"
+
+var messyString = '    Hi there    ';
+
+messyString.trim(); // "Hi there"
 
 var str2 = str.concat('again and again');
 
