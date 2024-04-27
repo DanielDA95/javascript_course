@@ -1,4 +1,4 @@
-//Lo siguiente es la sintaxis basica de las condicionales.
+//Lo siguiente es la sintaxis basica de los operadores de comparacion
 var edad = 30;
 var edad_dos = 29;
 
@@ -21,3 +21,7 @@ if (age >= 25) {
 if (age <= 10) {
   console.log('You can eat from the kid menu');
 }
+
+//________________________________________________________________________________________________________________________________________________________________--
+
+
