@@ -22,7 +22,7 @@ storedTextTwo; // "Hi there again"
 
 
 //_______________________________________________________________________________________________
-//Como funciona el ambito variable en JS
+//Como funciona el alcance de la variable en JS (Variable Scope), aunque usa funciones tampoco se puede usar sin variables.
 var userObj = {
   email: 'sample@example.com',
   fullName: 'Kristine Hudgens'
